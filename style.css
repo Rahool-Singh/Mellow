@@ -1,0 +1,503 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.menu-nav{
+  width: 100%;
+  height: 35px;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-brand{
+  margin-left: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  
+}
+
+.navbar{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dddcdc;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition:0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+
+#fixedNavWrapper {
+position: fixed;
+z-index: 1;
+width: 100%;
+top: 0;
+
+}
+
+#navLinks {
+text-align: center;
+width: 100%;
+height: 30px;
+background: #acacac;
+padding-top: 10px;
+color: rgb(0, 0, 0);
+padding-top: 10px;
+}
+
+.container1 {
+  margin-top: px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.image-text {
+  margin: 1px;
+  text-align: center;
+}
+
+.image-text img {
+  width: 300px;
+  height: 200px;
+}
+
+.image-text p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+.video {
+  margin: 0 auto;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.image-textt {
+  margin: 0px;
+  text-align: center;
+}
+
+.image-textt img {
+  width: 70px;
+  height: 70px;
+}
+
+.image-textt p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  padding: 20px  0;
+}
+
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+}
+
+.footer-text {
+  text-align: right;
+}
+
+.footer-text h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  text-decoration-color: #D9D9D9;
+}
+
+.footer-text p {
+  font-size: 0.8rem;
+}
+
+.popuup-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 500px;
+  background-color: #D9D9D9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  z-index: 10;
+}
+
+.popuup-content {
+  display: flex; /* Use flexbox for layout */
+}
+
+.containerf {
+  max-width: 2000px;
+  height: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.product-image img {
+  width: 300px;
+  height: 500px;
+  display: block;
+}
+
+.product-details {
+  flex: 2;
+}
+
+.product-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-details .price {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-details .description {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.product-details form {
+  display: flex;
+  align-items: center;
+}
+
+.product-details label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.product-details input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.product-details .add-to-cart-button {
+  padding: 10px 20px;
+  background-color:black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.popup-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 500px;
+  background-color: #D9D9D9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  z-index: 10;
+}
+
+.popup-content {
+  display: flex; /* Use flexbox for layout */
+}
+
+.popup-text-left { /* Styles for left text column */
+  flex-basis: 40%; /* Takes up 40% width */
+  padding: 10px;
+}
+
+.popup-text-left h2 {
+  margin-bottom: 10px;
+}
+
+.popup-text-right { /* Styles for new right text column */
+  flex-basis: 20%; /* Takes up 20% width */
+  padding: 10px;
+}
+
+.popup-text-right h3 {
+  margin-bottom: 10px;
+}
+
+.popup-image {
+  flex-basis: 40%; /* Image takes up 40% width */
+  text-align: center;
+}
+
+.popup-image img {
+  width: 400px;
+  height: auto;
+}
+
+.popupp-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 500px;
+  background-color: #D9D9D9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  z-index: 10;
+}
+
+.popupp-content {
+  display: flex; /* Use flexbox for layout */
+}
+
+.popupp-text-left { /* Styles for left text column */
+  flex-basis: 40%; /* Takes up 40% width */
+  padding: 10px;
+}
+
+.popupp-text-left h2 {
+  margin-bottom: 10px;
+}
+
+.popupp-text-right { /* Styles for new right text column */
+  flex-basis: 20%; /* Takes up 20% width */
+  padding: 10px;
+}
+
+.popupp-text-right h3 {
+  margin-bottom: 10px;
+}
+
+.popupp-image {
+  flex-basis: 40%; /* Image takes up 40% width */
+  text-align: center;
+}
+
+.popupp-image img {
+  width: 400px;
+  height: auto;
+}
+
+/* Additional CSS for background image and content visibility */
+.homepage {
+  position: relative; /* Ensure relative positioning for absolute content */
+  background-image: url("background_img.jpg");
+  background-size: cover; /* Cover the entire viewport */
+  /* height: 100vh; */
+  background-position: center center; /* Center the background image */
+  color: #ffffff; /* Default text color */
+  padding: 100px 0; /* Adjust padding as needed */
+  padding: 100px 0; /* Adjust padding as needed */
+  text-align: center; /* Center align text */
+  height: 75vh; /* Set initial viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+
+.content {
+  position: relative; /* Ensure content is above the overlay */
+  z-index: 1; /* Ensure content is above the overlay */
+  padding: 20px;
+  text-decoration-color: white;
+}
+
+.form-group a button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.form-group a button:hover {
+  background-color: #45a049;
+}
+
+.form-group a {
+  text-decoration: none;
+}
+
+.popupppp-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 500px;
+  background-color: #D9D9D9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  z-index: 10;
+}
+
+.popupppp-content {
+  display: flex; /* Use flexbox for layout */
+  align-content: center;
+}
+
+.box{
+  margin-left: 100px;
+  margin-top: 150px;
+  margin-right: 150px;
+  background-color: rgb(195, 195, 195);
+  padding: 60px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#cont_shop{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.image-text {
+  position: relative;
+  display: inline-block;
+}
+
+#hairc{
+  opacity: 0.7; /* Make the image 70% opaque */
+  width: 280px; /* Ensure the image takes the full width of its container */
+  height: 200px; /* Maintain the aspect ratio */
+  
+}
+#lipc {
+  opacity: 0.7; /* Make the image 70% opaque */
+  width: 280px; /* Ensure the image takes the full width of its container */
+  height: 200px; /* Maintain the aspect ratio */
+  
+}
+#bodyc {
+  opacity: 0.7; /* Make the image 70% opaque */
+  width: 280px; /* Ensure the image takes the full width of its container */
+  height: 200px; /* Maintain the aspect ratio */
+  
+}
+#skinc {
+  opacity: 0.7; /* Make the image 70% opaque */
+  width: 280px; /* Ensure the image takes the full width of its container */
+  height: 200px; /* Maintain the aspect ratio */
+  
+}
+
+.image-text p {
+  position: absolute;
+  top: 50%; /* Center the text vertically */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%); /* Adjust for the center alignment */
+  margin: 0; /* Remove default margins */
+  color: rgb(0, 0, 0); /* Set the text color to white */
+  font-size: 20px; /* Set the font size */
+  z-index: 2; /* Ensure the text is above the image */
+}
+
+#LC:hover{
+  font-size: 24px;
+  transition-duration: 0.5s;
+}
+#HC:hover{
+  font-size: 24px;
+  transition-duration: 0.5s;
+}
+#SC:hover{
+  font-size: 24px;
+  transition-duration: 0.5s;
+}
+#BC:hover{
+  font-size: 24px;
+  transition-duration: 0.5s;
+}
+
+
+
