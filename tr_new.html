@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELLOW SKINCARE WEBSITE</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Lightgallery CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #343a40;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            background-color: #ffffff;
+            height: 60px;
+            
+        }
+
+        .navbar-brand{
+            margin-top: 5px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #3f3f3f;
+            margin-right:10px;
+        }
+
+        .navbar a:hover {
+            color: #000000;
+        }
+
+        .navbar .fas {
+            margin-left: 1rem;
+            cursor: pointer;
+        }
+        
+        .navbar .search-form input {
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            padding: 0px;
+            padding-right: 10px;
+        }
+
+        .navbar .search-form label {
+            position: absolute;
+            right: 0.5rem;
+            
+            
+            color: #6c757d;
+            cursor: pointer;
+        }
+
+        h1, h2 {
+            margin-top: 10px;
+            text-align: center;
+            color: #343a40;
+            margin-bottom: 0rem;
+        }
+
+        .navbar-brand{
+            margin-bottom: 30px;
+            color: #000000;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 0px;
+            margin: 10px auto;
+            border-radius: 8px;
+            max-width: 600px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        form label {
+            margin: 0.5rem 0;
+            color: #000101;
+            font-weight: bold;
+        }
+
+        form input {
+            padding: 0.5rem;
+            border: 1px solid #979797;
+            border-radius: 4px;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        form button {
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #218838;
+        }
+
+        #orderStatus {
+            text-align: center;
+            margin: 2rem auto;
+            font-size: 1.2rem;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div id="fixedNavWrapper">
+        <div id="navLinks">
+            <a><b>Free Shipping On Orders Over ₹2000</b></a>
+        </div>
+        <hr><br><hr><br><hr>
+    </div>
+    <br><br>
+    <nav>
+        <div class="navbar">
+            <a class="navbar-brand" style="color: rgb(0, 0, 0);" href="index.html"><h1><u>MELLOW</u></h1></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="bestseller new.html" class="bestseller-btn">Bestseller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="skincare-btn">Skin Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="lipcare-btn">Lip/Hair Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Quiz.html" class="buildyourroutine.html">Build Your Routine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tr_new.html" class="trackorder-btn">Track Your Order</a>
+                    </li>
+                    <li>
+                        <form action="" class="search-form">
+                            <input type="search" class="search_back" name="" placeholder="search here..." id="search-box">
+                            <label for="search-box" class="fas fa-search"></label>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="#" class="fas fa-login"></a>
+                    </li>
+                    <li>
+                        <a href="cart new.html" class="fas fa-shopping-bag"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- skincare popup-box -->
+    <div class="popup-box">
+        <div class="popup-content">
+            <div class="popup-text-left">
+              <br><br>
+                <h2>SKIN CARE</h2><br><br>
+                <p><a href="cleanse.html" style="color: black;">CLEANSE</a><br><br>
+                  <a href="tone.html" style="color: black;">TONE</a><br><br>
+                    <a href="moisturize.html" style="color: black;">MOISTURIZE</a><br><br>
+                      <a href="spf.html" style="color: black;"> SPF</a><br><br>
+                </p>
+            </div>
+            <br><br>
+            <div class="popup-text-right"> 
+              <br><br>
+              <h2>BODY CARE</h2><br><br>
+              <p><a href="rollon.html" style="color: black;">ROLL-ON</a><br><br>
+                <a href="lotion.html" style="color: black;">LOTION</a><br><br>
+                  <a href="wash.html" style="color: black;">WASH</a><br><br>
+                    <a href="body_scrub.html" style="color: black;">SCRUB</a><br><br>
+              </p>
+          </div>
+            <div class="popup-image">
+                <img src="cetaphilgentleskincleanser.jpg" alt="Cetaphil Gentle Foaming Cleanser">
+                <br><br>
+                <p class="product-name"><h3>NEW LAUNCH:</h3>Cetaphil Gentle Skin Cleanser</p>
+            </div>
+        </div>
+    </div>
+  <!-- End of skincare popup-box -->
+  
+  <!-- lipcare popup-box -->
+  <div class="popupp-box">
+        <div class="popupp-content">
+            <div class="popupp-text-left">
+              <br><br>
+                <h2>HAIR CARE</h2><br><br>
+                <p><a href="treat.html" style="color: black;">TREAT</a><br><br>
+                  <a href="shampoo.html" style="color: black;">SHAMPOO</a><br><br>
+                    <a href="mask.html" style="color: black;">MASK</a><br><br>
+                      <a href="conditioner.html" style="color: black;">CONDITIONER</a><br><br>
+                </p>
+            </div>
+            <br><br>
+            <div class="popupp-text-right"> 
+              <br><br>
+              <h2>LIP CARE</h2><br><br>
+              <p><a href="balm.html" style="color: black;">BALM</a><br><br>
+                  <a href="scrub.html" style="color: black;">SCRUB</a><br><br>
+                  <a href="oil.html" style="color: black;">OIL</a><br><br>
+                    <a href="plumper.html" style="color: black;">PLUMPER</a><br><br>
+              </p>
+          </div>
+            <div class="popupp-image">
+                <img src="photos/manmattersminoxidiltopical.jpg" alt="Cetaphil Gentle Foaming Cleanser">
+                <br><br>
+                <p class="product-name"><h3>NEW LAUNCH:</h3>Man Matters Minoxidil Topical Solution</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of lipcare popup-box -->
+    <br><br><br><br><br>
+
+    <h1>Order Tracking System</h1>
+    <form id="orderForm">
+        <br>
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" required><br><br><br>
+        <label for="orderDetails">Order Details:</label>
+        <input type="text" id="orderDetails" required>
+        <button type="submit">Get Order ID</button>
+    </form>
+    <br><br>
+    <h2>Track Order</h2><br>
+    <form id="trackForm">
+        <label for="orderId">Order ID:</label>
+        <input type="text" id="orderId" required>
+        <button type="submit">Track Order</button>
+    </form>
+
+    <div id="orderStatus"></div>
+
+    <script src="script_tr.js"></script>
+</body>
+</html>

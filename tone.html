@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toner Products</title>
+    <link rel="stylesheet" href="main1.css">
+</head>
+<body>
+    <div class="product-headings">
+        <h1 style="color: black;">TONE</h1>
+    </div>
+    <hr size="6" width="100%">
+    <section class="image-section">
+        <div class="product-container">
+            <img src="niacinamidetoner.jpg" alt="Toner 1" style="height:300px;width:300px;">
+            <h2>Niacinamide Toner</h2>
+            <p class="product-name">A water-soluble form of vitamin B3 that clears blemishes & brightens skin minimizes the appearance of pores</p>
+            <div class="rating">
+                <span class="star">★★★★</span>
+            </div>
+            <p class="product-price">₹336.00</p>
+            <button class="add-to-cart">Product Details</button>
+        </div>
+        <div class="product-container">
+            <img src="facemistspary.jpg" alt="Toner 2" style="height:300px;width:300px;">
+            <h2>Face Mist Spray</h2>
+            <p class="product-name">An ultrafine, glow-boosting mist now in a portable mini size so you can hydrate, prime, set, and refresh skin wherever you go.
+            </p>
+            <div class="rating">
+                <span class="star">★★★★★</span>
+            </div>
+            <p class="product-price">₹2000.00</p>
+            <button class="add-to-cart">Product Details</button>
+        </div>
+        <div class="product-container">
+            <img src="minimalistPHAtoner.jpg" alt="Toner 3" style="height:300px;width:300px;">
+            <h2>Minimalist PHA Toner</h2>
+            <p class="product-name">The Minimalist Pha 03% Face Toner With Multi Biotics Tightens Pores & Hydrates - (150ml) </p>
+            <div class="rating">
+                <span class="star">★★★★</span>
+            </div>
+            <p class="product-price">₹379.00</p>
+            <button class="add-to-cart">Product Details</button>
+        </div>
+    </section>
+    <hr size="6" width="100%">
+    <section class="image-section">
+        <div class="product-container">
+            <img src="brillareoilyface.jpg" alt="Toner 4" style="height:300px;width:300px;">
+            <h2>Brillare Oily Face Toner</h2>
+            <p class="product-name">An ultrafine, glow-boosting mist now in a portable mini size so you can hydrate, prime, set, and refresh skin</p>
+            <div class="rating">
+                <span class="star">★★★★★</span>
+            </div>
+            <p class="product-price">₹695.00</p>
+            <button class="add-to-cart">Product Details</button>
+        </div>
+        <div class="product-container">
+            <img src="biotiqueface.jpg" alt="Toner 5" style="height:300px;width:300px;">
+            <h2>Biotique Face Toner</h2>
+            <p class="product-name">This excellent toner is formulated to hydrate oily, acne-prone skin</p>
+            <div class="rating">
+                <span class="star">★★★★</span>
+            </div>
+            <p class="product-price">₹160.00</p>
+            <button class="add-to-cart">Product Details</button>
+        </div>
+        <div class="product-container">
+            <img src="niveaface.jpg" alt="Toner 6" style="height:300px;width:300px;">
+            <h2>Nivea Face Toner</h2>
+            <p class="product-name">Upgrade your cleansing routine with NIVEA's Face Cleansing Derma Skin Clear. </p>
+            <div class="rating">
+                <span class="star">★★★★★</span>
+            </div>
+            <p class="product-price">₹499.00</p>
+            <button class="add-to-cart">Product Details</button>
+        </div>
+    </section>
+    <br>
+    <hr size="6" width="100%">
+    <script>
+        function toggleReadMore(button) {
+            var paragraph = button.parentNode;
+            var moreText = paragraph.querySelector(".moreContent");
+            var readMoreBtn = paragraph.querySelector("button:first-of-type");
+            var readLessBtn = paragraph.querySelector("button:last-of-type");
+
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+                readMoreBtn.style.display = "none";
+                readLessBtn.style.display = "inline";
+            } else {
+                moreText.style.display = "none";
+                readMoreBtn.style.display = "inline";
+                readLessBtn.style.display = "none";
+            }
+        }
+    </script>
+    <div>
+        <a href="index.html"><img src="mellow.jpg" id="mel_pic">
+            <style>
+                #mel_pic{
+                    display: flex;
+                    height: 300px;
+                    width: 300px;
+                justify-content: left;
+                margin-top:0px;
+                
+                
+                }
+            </style>
+    
+            </div>
+</body>
+</html>
