@@ -1,0 +1,96 @@
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow:none;
+}
+
+input
+{
+    background: grey
+}
+
+.travel_mainDiv
+{
+    border: 1px solid #c7c7c7;
+    padding: left 0px;
+    padding: right 0px;
+    float:none;
+}
+
+.travel_mainDiv img
+{
+    widht:70%;
+}
+
+.travel_mainDiv hr
+{
+    width: 230px;
+}
+
+.travel_mainDiv h5 ,.travel_mainDiv p
+{
+    margin-left: 20px;
+}
+
+
+.interest 
+{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius: 10px;
+    margin: bottom 15px;
+    width:100%;
+    display: inline-block;
+}
+
+.interest i{
+    float:right;
+}
+
+.interest= span
+{
+    color:yellow;
+}
+
+
+
+.header_enterpreneur
+{
+    line-height:2;
+}
+
+
+.book
+{
+    cursor:pointer;
+}
+
+.book hr
+{
+    margin-bottom: 10px;
+}
+
+.img-content
+{
+    margin-top: 100px;
+}
+
+.img_model
+{
+display: inline-block;
+}
+.p_modal
+{
+    margin-top: 10px;
+}
+.modal-body
+{
+    text-align:center;
+}

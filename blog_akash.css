@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: #EEE4B1;
+}
+
+#summary{
+    padding: 2%;
+}
+#education{
+    padding: 2%;
+}
+
+#box1{
+    padding: 2%;
+}
+
+#box2{
+    padding: 2%;
+}
+
+#box3{
+    padding: 2%;
+}
+
+#skills{
+    padding: 2%;
+}
+
+#s1{
+  padding: 2%;
+}
+
+#s2{
+  padding: 2%;
+}
+
+#s3{
+  padding: 2%;
+}
+
+#s4{
+  padding: 2%;
+}
+
+#s5{
+  padding: 2%;
+}
+
+#certificate{
+    padding: 2%;
+}
+
+#achievements{
+    padding: 2%;
+}
+
+#a1{
+  padding: 2%;
+}
+
+#a2{
+  padding: 2%;
+}
+
+#a3{
+  padding: 2%;
+}
+
+#a4{
+  padding: 2%;
+}
+
+#footer{
+    padding: 2%;
+}
+
+#c1{
+    padding: 2%;
+}
+
+#c2{
+    padding: 2%;
+}
+
+#c3{
+    padding: 2%;
+}
+
+#c4{
+    padding: 2%;
+}
+
+#c5{
+    padding: 2%;
+}
+
+.navbar-nav li{
+    padding-left:30px;
+    padding-right:30px;
+}
+.nav-item{
+    color:white;
+}
+
+#navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+} 

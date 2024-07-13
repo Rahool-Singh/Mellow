@@ -1,0 +1,21 @@
+body
+{
+    text-align:center;
+}
+.ABOUT{
+    color:black;
+}
+
+#myCarousel img 
+{
+    height:300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    color: rgb(15,9,9);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

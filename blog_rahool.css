@@ -1,0 +1,33 @@
+.branches_mainDiv
+{
+    border: 1px solid #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+}
+.branches_mainDiv img
+{
+    width: 70%;
+
+}
+.hob_img{
+    display: inline-block;
+}
+
+.branches_mainDiv hr
+{
+    width: 230px;
+}
+
+#skills{
+    text-align: center;
+    pointer-events: stroke;
+}
+
+#ach_text{
+    letter-spacing: 1px;
+}
+
+#sk_acq{
+    margin-left: 20px;
+}

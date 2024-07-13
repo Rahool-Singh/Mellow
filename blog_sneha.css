@@ -1,0 +1,52 @@
+body
+{
+    background-color: beige;
+
+}
+#myCarousel{
+    background-color: #ffffff;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-top: 15px;
+    color: #0f0e02;
+}
+.about_maindiv
+{
+    border: 1px solid #f0f0f0;
+    padding-left:0px ;
+    padding-right: 0px;
+    float: none;
+}
+.about_maindiv hr
+{
+    width: 230px;
+}
+.about_maindiv h5, .about_maindiv p
+{
+    margin-left: 20px;
+}
+.achievement_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.achievement_head i 
+{
+    float: right;
+}
+.achievement_text span
+{
+    color: #eba638;
+}
+.mynavbar
+{
+    background: #eb1b1b;
+}
